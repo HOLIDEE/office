@@ -10,15 +10,35 @@ let currentPopup: any = undefined;
 WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
-
-    WA.room.area.onEnter('clock').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
-        currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
+// Custom menu
+const menu = WA.ui.registerMenuCommand('menu test',
+    {
+        callback: () => {
+            WA.chat.sendChatMessage('test');
+        }
     })
 
-    WA.room.area.onLeave('clock').subscribe(closePopup)
+    WA.room.area.onEnter('welcomeZone').subscribe(() => {
+        currentPopup = WA.ui.openPopup("welcomePopup", "Bienvenue au HOLIDEE & NXLVL Center !", [{
+		label: "Option1",
+		className: "normal",
+		callback: (popup) => {
+			popup.close();
+		}},{
+		label: "Option2",
+		className: "normal",
+		callback: (popup) => {
+			popup.close();
+		}},{
+		label: "Close",
+		className: "primary",
+		callback: (popup) => {
+			popup.close();
+		}
+}]);
 
+    WA.room.area.onLeave('welcomeZone').subscribe(closePopup)
+    })
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
