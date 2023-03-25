@@ -10,13 +10,6 @@ let currentPopup: any = undefined;
 WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
-// Custom menu
-const menu = WA.ui.registerMenuCommand('menu test',
-    {
-        callback: () => {
-            WA.chat.sendChatMessage('test');
-        }
-    })
 
     WA.room.area.onEnter('welcomeZone').subscribe(() => {
         currentPopup = WA.ui.openPopup("welcomePopup", "Bienvenue au HOLIDEE & NXLVL Center !", [{
