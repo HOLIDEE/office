@@ -15,19 +15,19 @@ WA.onInit().then(() => {
         currentPopup = WA.ui.openPopup("welcomePopup", "Bienvenue au HOLIDEE & NXLVL Center ! \r Je me rends directement à la salle :", [{
 		label: "HOLIDEE Meeting",
 		className: "normal",
-		callback: (popup) => {
+		callback: () => {
 			WA.player.moveTo(755, 2100, 10);
 		}},{
 		label: "CONFERENCE",
 		className: "normal",
-		callback: (popup) => {
+		callback: () => {
 			WA.player.moveTo(1840, 1872, 10).then((result) => {
    			 if (!result.cancelled) {
         			WA.player.moveTo(1840, 1219, 10);
 		}})}},{
 		label: "NXLVL Meeting",
 		className: "primary",
-		callback: (popup) => {
+		callback: () => {
 			WA.player.moveTo(2944, 1312, 10);
 		}
 }]);
