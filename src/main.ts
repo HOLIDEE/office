@@ -13,17 +13,17 @@ WA.onInit().then(() => {
 
     WA.room.area.onEnter('welcomeZone').subscribe(() => {
         currentPopup = WA.ui.openPopup("welcomePopup", "Bienvenue au HOLIDEE & NXLVL Center !", [{
-		label: "Option1",
+		label: "HOLIDEE Meeting",
 		className: "normal",
 		callback: (popup) => {
 			popup.close();
 		}},{
-		label: "Option2",
+		label: "CONFERENCE",
 		className: "normal",
 		callback: (popup) => {
 			popup.close();
 		}},{
-		label: "Close",
+		label: "NXLVL Meeting",
 		className: "primary",
 		callback: (popup) => {
 			popup.close();
