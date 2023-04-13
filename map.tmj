@@ -5158,6 +5158,28 @@
                  "width":94.5,
                  "x":1697,
                  "y":1249.5
+                }, 
+                {
+                 "class":"area",
+                 "height":2560,
+                 "id":30,
+                 "name":"GeneralChat",
+                 "properties":[
+                        {
+                         "name":"chatDescription",
+                         "type":"string",
+                         "value":"Parler \u00e0 tout le monde"
+                        }, 
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Tout le monde"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":3392,
+                 "x":0,
+                 "y":0
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -5904,7 +5926,7 @@
          "y":0
         }],
  "nextlayerid":142,
- "nextobjectid":30,
+ "nextobjectid":31,
  "orientation":"orthogonal",
  "properties":[
         {
