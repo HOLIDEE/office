@@ -5161,7 +5161,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":2560,
+                 "height":404,
                  "id":30,
                  "name":"GeneralChat",
                  "properties":[
@@ -5177,9 +5177,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":3392,
-                 "x":0,
-                 "y":0
+                 "width":308,
+                 "x":1712,
+                 "y":2144
                 }],
          "opacity":1,
          "type":"objectgroup",
