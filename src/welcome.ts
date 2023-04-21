@@ -12,9 +12,9 @@ WA.onInit().then(() => {
 	console.log('Player tags: ',WA.player.tags);
 
 // Action zone "visit"
-	WA.room.area.onEnter('holideeWebsite').subscribe(() => {
-		WA.chat.sendChatMessage('Hello world', 'Mr Robot');
-	});
+//	WA.room.area.onEnter('holideeWebsite').subscribe(() => {
+//		WA.chat.sendChatMessage('Hello world', 'Mr Robot');
+//	});
 
 // Actions zone welcome
 	WA.room.area.onEnter('welcomeZone').subscribe(() => {
