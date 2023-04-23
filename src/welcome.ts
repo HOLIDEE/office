@@ -18,7 +18,7 @@ WA.onInit().then(() => {
 
 // Actions zone welcome
 	WA.room.area.onEnter('welcomeZone').subscribe(() => {
-		currentPopup = WA.ui.openPopup("welcomePopup", "Bienvenue au HOLIDEE & NXLVL Center ! \r Je me rends directement à la salle :", [{
+		currentPopup = WA.ui.openPopup("welcomePopup", "Bienvenue chez nous ! \r Tu peux te rendre directement à la salle :", [{
 			label: "HOLIDEE Meeting",
 			className: "normal",
 			callback: () => {
