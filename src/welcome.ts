@@ -11,6 +11,11 @@ WA.onInit().then(() => {
 	console.log('Scripting API ready');
 	console.log('Player tags: ',WA.player.tags);
 
+// Action zone "visit"
+//	WA.room.area.onEnter('holideeWebsite').subscribe(() => {
+//		WA.chat.sendChatMessage('Hello world', 'Mr Robot');
+//	});
+
 // Actions zone welcome
 	WA.room.area.onEnter('welcomeZone').subscribe(() => {
 		currentPopup = WA.ui.openPopup("welcomePopup", "Bienvenue chez nous ! \r Tu peux te rendre directement à la salle :", [{
