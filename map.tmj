@@ -1317,7 +1317,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/vdo.holidee.fr\/?room=HolideeOfficeCenterConference"
+                         "value":"https:\/\/vdo.holidee.fr\/?room=HolideeOfficeCenterConference&mini&vd&ad"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -1327,7 +1327,7 @@
                         {
                          "name":"openWebsitePolicy",
                          "type":"string",
-                         "value":"camera;microphone"
+                         "value":"camera; microphone; display-capture; autoplay; clipboard-write;"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -1424,12 +1424,17 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/vdo.holidee.fr\/?scene&room=HolideeOfficeCenterConference"
+                         "value":"https:\/\/vdo.holidee.fr\/?room=HolideeOfficeCenterConference&m&mini&vd&ad"
                         }, 
                         {
                          "name":"openWebsiteClosable",
                          "type":"bool",
                          "value":false
+                        }, 
+                        {
+                         "name":"openWebsitePolicy",
+                         "type":"string",
+                         "value":"camera; microphone; display-capture; autoplay; clipboard-write;"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -1536,7 +1541,7 @@
                         {
                          "name":"openWebsitePolicy",
                          "type":"string",
-                         "value":"camera;microphone"
+                         "value":"camera; microphone; display-capture; autoplay; clipboard-write;"
                         }],
                  "type":"tilelayer",
                  "visible":true,
