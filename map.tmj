@@ -1539,16 +1539,6 @@
                          "value":"NxlvlMeeting"
                         }, 
                         {
-                         "name":"jitsiTriggerMessage",
-                         "type":"string",
-                         "value":"Tape 'Espace' pour rejoindre la r\u00e9union"
-                        }, 
-                        {
-                         "name":"jitsiUrl",
-                         "type":"string",
-                         "value":"https:\/\/meet.holidee.fr"
-                        }, 
-                        {
                          "name":"openWebsiteClosable",
                          "type":"bool",
                          "value":false
@@ -1664,11 +1654,6 @@
                          "name":"jitsiTriggerMessage",
                          "type":"string",
                          "value":"Tape 'Espace' pour rejoindre la visio"
-                        }, 
-                        {
-                         "name":"jitsiUrl",
-                         "type":"string",
-                         "value":"https:\/\/meet.holidee.fr"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -1793,11 +1778,6 @@
                          "value":"Tape 'Espace' pour rejoindre l'Open Space"
                         }, 
                         {
-                         "name":"jitsiUrl",
-                         "type":"string",
-                         "value":"https:\/\/meet.holidee.fr"
-                        }, 
-                        {
                          "name":"openWebsiteClosable",
                          "type":"bool",
                          "value":false
@@ -1913,11 +1893,6 @@
                          "name":"jitsiTriggerMessage",
                          "type":"string",
                          "value":"Tape 'Espace' pour rejoindre l'Open Space"
-                        }, 
-                        {
-                         "name":"jitsiUrl",
-                         "type":"string",
-                         "value":"https:\/\/meet.holidee.fr"
                         }, 
                         {
                          "name":"openWebsiteClosable",
